@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "ai-quiz-me.vercel.app", // replace with your application client origin
+    origin: "*", // replace with your application client origin
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
@@ -60,6 +60,7 @@ app.post("/api/generateQuiz", async (req, res) => {
   }
 });
 
+//testing if backend is running fine
 app.get("/", (req, res) => {
   res.send("Backend is running");
 });
