@@ -60,6 +60,10 @@ app.post("/api/generateQuiz", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
+
 //setting up the server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
