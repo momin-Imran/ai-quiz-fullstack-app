@@ -1,4 +1,4 @@
-# AI Quiz Generator
+# QuizMe - An AI-Powered Quiz Generator
 
 AI Quiz Generator is a full-stack application that allows users to generate quizzes on various topics using OpenAI's GPT-3.5 model. The application dynamically generates multiple-choice questions based on the user's selected topic, providing a smooth and engaging quiz experience.
 
