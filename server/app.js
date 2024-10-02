@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "*", // replace with your application client origin
+    origin: "ai-quiz-me.vercel.app", // replace with your application client origin
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
