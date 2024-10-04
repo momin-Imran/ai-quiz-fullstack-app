@@ -19,7 +19,7 @@ const Quiz = ({searchTerm}) => {
     
         const fetchData = async () => {
           try {
-            const response = await fetch('ai-quiz-fullstack-app-production.up.railway.app/api/generateQuiz', {
+            const response = await fetch('https://ai-quiz-fullstack-app-production.up.railway.app/api/generateQuiz', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
